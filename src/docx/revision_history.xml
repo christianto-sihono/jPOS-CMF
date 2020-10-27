@@ -22,6 +22,57 @@
    </thead>
    <tbody>
      <row>
+       <entry>May, 2018</entry>
+       <entry>1.0.13</entry>
+       <entry>apr</entry>
+       <entry>
+         <itemizedlist>
+           <listitem><para>Added DE 113.63 (Additional Data - reserved for private use)</para></listitem>
+         </itemizedlist>
+       </entry>
+     </row>
+     <row>
+       <entry>Sep, 2016</entry>
+       <entry>1.0.12</entry>
+       <entry>apr</entry>
+       <entry>
+         <itemizedlist>
+           <listitem><para>Added DE 113.24 (Installments information)</para></listitem>
+         </itemizedlist>
+       </entry>
+     </row>
+     <row>
+       <entry>Jul, 2014</entry>
+       <entry>1.0.11</entry>
+       <entry>apr</entry>
+       <entry>
+         <itemizedlist>
+           <listitem><para>Added DE TRACK1 and TRACK2 reading methods to Pos Data Code (DE 22)</para></listitem>
+         </itemizedlist>
+       </entry>
+     </row>
+     <row>
+       <entry>Dec, 2013</entry>
+       <entry>1.0.10</entry>
+       <entry>apr</entry>
+       <entry>
+         <itemizedlist>
+           <listitem><para>Added DE 100, receiving institution code</para></listitem>
+           <listitem><para>Re-enabled DE 53</para></listitem>
+         </itemizedlist>
+       </entry>
+     </row>
+     <row>
+       <entry>Jul, 2013</entry>
+       <entry>1.0.9</entry>
+       <entry>apr</entry>
+       <entry>
+         <itemizedlist>
+           <listitem><para>Added jCard field 113.23, SSN</para></listitem>
+         </itemizedlist>
+       </entry>
+     </row>
+     <row>
        <entry>Mar, 2013</entry>
        <entry>1.0.8</entry>
        <entry>apr</entry>

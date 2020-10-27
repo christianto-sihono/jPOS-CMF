@@ -3,7 +3,7 @@
   %constants;
 ]>
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="jcard_data_elements">
- <title>jCard Data Elements</title>
+ <title>jCard / jPTS Data Elements</title>
  <indexterm>
   <primary>Data Elements</primary>
  </indexterm>
@@ -453,5 +453,145 @@
    </para>
   </simplesect>
  </sect1>
+ <sect1 xml:id="S.de_113.23">
+  <title xml:id="de_113.23">DE-113.23 SSN</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.23 - SSN</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.23</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: A 11</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Social Security Number in XXX-XX-XXXX
+   </para>
+  </simplesect>
+ </sect1>
+<sect1 xml:id="S.de_113.24">
+  <title xml:id="de_113.24">DE-113.24 Installments Information</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.24 - Installments Information</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.24</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: N4</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Used for specify Installments Transactions.
+   </para>
+   <table frame="topbot">
+    <title>Data Element: 113.24</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+     <colspec colname="name"/>
+     <colspec colname="format" colwidth="2*"/>
+     <thead>
+      <row>
+       <entry>Subfield</entry>
+       <entry>Values</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Installment Plan Type</entry>
+       <entry>
+        <para> N2 <itemizedlist>
+          <listitem>
+           <para><emphasis role="bold">10</emphasis> Merchant Financed Plan</para>
+          </listitem>
+          <listitem>
+           <para><emphasis role="bold">11</emphasis> Issuer Financed Plan</para>
+          </listitem>
+          <listitem>
+           <para><emphasis role="bold">12</emphasis> Acquirer Financed Plan</para>
+          </listitem>
+         </itemizedlist></para>
+       </entry>
+      </row>
+      <row>
+       <entry>Number of installments</entry>
+       <entry>N2</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.25">
+  <title xml:id="de_113.25">DE-113.25 Network Name</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.25 - Network Name</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.25</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..64</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Network Name
+   </para>
+  </simplesect>
+ </sect1>
+ <sect1 xml:id="S.de_113.39">
+  <title xml:id="de_113.39">DE-113.39 Remote Result Code</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.39 - Remote ISO Result Code</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.39</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..4</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+    Remote ISO result code.
+   </para>
+  </simplesect>
+ </sect1> 
+ <sect1 xml:id="S.de_113.63">
+  <title xml:id="de_113.63">DE-113.63 Additional Data - reserved for private use</title>
+  <indexterm>
+   <primary>Data Elements</primary>
+   <secondary>DE 113.63 - Additional Data - reserved for private use</secondary>
+  </indexterm>
+  <simplesect>
+   <title>Data Element: 113.63</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Format: AN..9999</title>
+   <para/>
+  </simplesect>
+  <simplesect>
+   <title>Description</title>
+   <para> 
+       Reserved for implementation-specific additional data.
+   </para>
+  </simplesect>
+ </sect1> 
 </chapter>
 
